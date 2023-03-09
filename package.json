@@ -1,7 +1,7 @@
 {
   "name": "01-notifications_page",
   "version": "0.1.0",
-  "homepage": "https://eng-milan.github.io/01-notifications_page",
+  "homepage": "https://github.com/eng-milan/01-notifications_page.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
