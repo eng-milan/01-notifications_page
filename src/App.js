@@ -32,7 +32,7 @@ function App() {
         setNotificationRead(newState)
     }
 
-    return <div className="bg-gray-50 md:py-[50px] md:px-[150px] lg:px-[250px] xl:px-[360px] 2xl:px-[500px]">
+    return <div className="bg-gray-50 md:py-[50px] md:px-[150px] lg:px-[250px] xl:px-[360px] 2xl:px-[500px]" role="main">
         <div className="px-5 pt-8 pb-2 bg-white md:rounded-lg">
             <Header state={notificationRead} handleClick={onMarkAllReadClick}></Header>
             <NotificationList
